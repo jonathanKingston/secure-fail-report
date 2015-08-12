@@ -36,3 +36,9 @@ The result will be something like:
      hasFrameProtection: false,
      hasXSSProtection: false } }
 ```
+
+
+
+## Thanks
+
+[Inspired by the great work here](https://scotthelme.co.uk/how-widely-used-are-security-based-http-response-headers/)
