@@ -1,6 +1,6 @@
 {
   "name": "secure-fail-report",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Security checker report in JSON",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/jonathanKingston/secure-fail-report.git"
   },
-  "bin": "./lib/index.js",
+  "bin": "./bin/index.js",
   "author": "Jonathan Kingston",
   "license": "MIT",
   "devDependencies": {
