@@ -1,6 +1,6 @@
 {
   "name": "secure-fail-report",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Security checker report in JSON",
   "main": "lib/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "bin": "./bin/index.js",
   "author": "Jonathan Kingston",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "follow-redirects": "0.0.6"
   }
 }
