@@ -1,10 +1,14 @@
 {
   "name": "secure-fail-report",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Security checker report in JSON",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanKingston/secure-fail-report.git"
   },
   "bin": "./lib/index.js",
   "author": "Jonathan Kingston",
