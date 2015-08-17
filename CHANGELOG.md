@@ -1,3 +1,6 @@
+# 0.1.1
+- Update README example
+
 # 0.1.0
 - Changing API
 - Improving STS and CSP checks

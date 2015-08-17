@@ -14,27 +14,31 @@ secure-crawl-json example.com
 
 The result will be something like:
 ```
-{ host: 'example.com',
-  https: 
-   { statusCode: 200,
-     responseTime: 1439343290223,
-     HTTPSResolve: true,
-     hasCSP: false,
-     hasNoSniff: false,
-     hasPKP: false,
-     hasSTS: false,
-     hasFrameProtection: false,
-     hasXSSProtection: false },
-  http: 
-   { statusCode: 200,
-     responseTime: 1439343290448,
-     HTTPSResolve: false,
-     hasCSP: false,
-     hasNoSniff: false,
-     hasPKP: false,
-     hasSTS: false,
-     hasFrameProtection: false,
-     hasXSSProtection: false } }
+{
+  "host": "bbc.com",
+  "https": {
+    "statusCode": 200,
+    "responseTime": 1439772567482,
+    "HTTPSResolve": false,
+    "CSP": false,
+    "PKP": false,
+    "STS": false,
+    "XSSProtection": false,
+    "frameProtection": false,
+    "noSniff": false
+  },
+  "http": {
+    "statusCode": 200,
+    "responseTime": 1439772567828,
+    "HTTPSResolve": false,
+    "CSP": false,
+    "PKP": false,
+    "STS": false,
+    "XSSProtection": false,
+    "frameProtection": false,
+    "noSniff": false
+  }
+}
 ```
 
 
