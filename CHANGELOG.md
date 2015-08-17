@@ -1,3 +1,7 @@
+# 0.1.0
+- Changing API
+- Improving STS and CSP checks
+
 # 0.0.5
 - Fix dependency
 
